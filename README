@@ -1,0 +1,15 @@
+arnlib is a support library for developing Aurion tools.
+Its aim target is to encapsulate native functions od different operating
+systems (Windows, Linux) to allow Aurion tools to be cross-platform.
+To achieve this target, the arnlib is also a Qt user interface widgets
+wrapper.
+
+Directory Structure
+root_dir/
+        library/
+               arnlib
+        downloader/
+                  PC/
+                    gnuloader
+
+			

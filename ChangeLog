@@ -1,0 +1,55 @@
+Version: 0.0.7.1
+-) RIsolve il problema del purgeRx in arnSAPArametric.cpp -> funzione ListenAndAnswerCmd (line 4120 circa)
+
+Version: 0.0.6.2
+-) Introduce il supporto per il micro sh2a 7286
+
+Version: 0.0.6.1
+-) Introduce la proprieta' KLoaderEMU a livello di arnSAParametric
+
+Version: 0.0.6.0
+-) Introduzione delle classi arnGenericGroupItem e derivate per gestire i Gruppi di controlli non omogenei.
+
+Version: 0.0.5.3
+-) Introduzioone del setVisible in tutte le classi arnSliderGroup cosi da poter nascondere gli sliders
+
+Version: 0.0.5.2
+-) Introduzione buffer a lunghezza dinamica per info da micro sh27085 sh27125
+
+Version: 0.0.4.34
+-) Introduzione della fuznione get
+Version: 0.0.4.33
+-) Introduzione del tempo di campionamento di arnThrottleCycleVisualizer
+Version: 0.0.4.32
+-) Introduzione downloader per h8/36064
+Version: 0.0.4.24
+-) Introduzione segnale void MarkChanged(int row, int col) per aggiornare in tempo reale i piani di copertura.
+Version: 0.0.4.20
+-) arnCOMPort::SendData commenta la tcdrain per velocizzare la trasmissione.
+Version: 0.0.4.13
+-) introduzione sperimantazione su protocollo z4 per aumento immunita' ai disturbi.
+Version: 0.0.3.0
+-) intruduce il supporto per la visulaizzazione grafica in tempo reale con le classi ...Graph...
+	basata su idps (www.idps.org).
+-) Modifica la classe arnSOKCDevice per abilitare / disabilitare la visualizzazione grafice delle variabili di pacchetto.
+Version: 0.0.2.0
+-) Introduce the 0.2 device version
+-) Make arnSOKPDevice and arnSOKCDevice dependent each other; for allowing parameter modification through realtime packet
+-) Add add the arnSOKLDevice to descrive the datalogger subsystem at device level.
+-) add arnSOCfg class for describing the arnConfiguration_t and all the device related stuff.
+-) midification of arnSliderItem, arnPacketItem.
+Version: 0.0.1.5
+-) Adding connection capabilities using ttyUSBx (x in [0,1]).
+Version: 0.0.1.4
+-) Implementation of eventEnter(QEvent*) virtual member on: arnNumericArrayViewer,arnNumericMatrixViewer,
+	arnCompositeArrayViewer,arnCompositeMatrixViewer.
+Version: 0.0.1.3
+-) Bugfix for arnNumericArrayViewer.cpp into Interpola_Hndl function.
+-) Bugfix for arnCompositeArrayViewer.cpp into Interpola_Hndl function.
+Version: 0.0.1.2
+-) adding arnComposite(Array/Matrix)Viewer.cpp/h.
+Version: 0.0.0.7
+-) Modifing the Reset Command flow for the Z4 protocol.
+Version: 0.0.0.6
+-) Added Min() and Max() members in arnqlabel class.
+

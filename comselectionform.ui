@@ -1,0 +1,104 @@
+<ui version="4.0" stdsetdef="1" >
+  <author></author>
+  <comment></comment>
+  <exportmacro></exportmacro>
+  <class>COMSelectionForm</class>
+  <widget class="QDialog" name="COMSelectionForm" >
+    <property name="geometry" >
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>200</width>
+            <height>200</height>
+        </rect>
+    </property>
+    <property name="sizePolicy" >
+        <sizepolicy>
+            <hsizetype>0</hsizetype>
+            <vsizetype>0</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+        <size>
+            <width>200</width>
+            <height>200</height>
+        </size>
+    </property>
+    <property name="maximumSize" >
+        <size>
+            <width>200</width>
+            <height>200</height>
+        </size>
+    </property>
+    <property name="windowTitle" >
+        <string>Selezione Porta COM</string>
+    </property>
+    <property name="sizeGripEnabled" >
+        <bool>false</bool>
+    </property>
+    <layout class="QGridLayout" >
+      <property name="margin" >
+            <number>11</number>
+        </property>
+      <property name="spacing" >
+            <number>6</number>
+        </property>
+      <item row="0" column="0" >
+        <widget class="Q3ButtonGroup" name="ComPortButtonGroup" >
+          <property name="title" >
+                <string>Seleziona porta COM</string>
+            </property>
+          <property name="radioButtonExclusive" >
+                <bool>true</bool>
+            </property>
+          <layout class="QGridLayout" >
+            <property name="margin" >
+                    <number>12</number>
+                </property>
+            <property name="spacing" >
+                    <number>16</number>
+                </property>
+            <item row="0" column="0" >
+              <widget class="QRadioButton" name="COM1Button" >
+                <property name="text" >
+                        <string>COM 1</string>
+                    </property>
+                <property name="checked" >
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </item>
+            <item row="1" column="0" >
+              <widget class="QRadioButton" name="COM2Button" >
+                <property name="text" >
+                        <string>COM 2</string>
+                    </property>
+                <property name="checked" >
+                        <bool>false</bool>
+                    </property>
+                </widget>
+            </item>
+            <item row="2" column="0" >
+              <widget class="QRadioButton" name="COM3Button" >
+                <property name="text" >
+                        <string>COM 3</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="3" column="0" >
+              <widget class="QRadioButton" name="COM4Button" >
+                <property name="text" >
+                        <string>COM 4</string>
+                    </property>
+                </widget>
+            </item>
+          </layout>
+        </widget>
+      </item>
+    </layout>
+        </widget>
+  <layoutdefault spacing="6" margin="11" />
+  <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+</ui>
